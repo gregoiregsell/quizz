@@ -1,5 +1,14 @@
+body {
+    background:linear-gradient(#8a307f,#6883bc);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 h1 {
     text-align:center;
+    color:white;
 }
 
 @keyframes bouton {
@@ -18,6 +27,7 @@ h1 {
 }
 
 .mx-auto {
-    text-align:center;
+    display:flex;
+    align-items: center;
     justify-content: center;
 }
