@@ -1,3 +1,18 @@
 h1 {
     text-align:center;
 }
+
+@keyframes bouton {
+    from {
+        transform:scale(1.0);
+
+    }
+
+    to {
+        transform:scale(1.2);
+    }
+}
+
+button:hover {
+    animation:bouton;
+}
